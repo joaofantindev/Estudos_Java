@@ -20,5 +20,4 @@ public class Car {
     public static Car createCar(String brand, String model, double price, int year) {
         return new Car(brand, model, price, year);
     }
-
 }
